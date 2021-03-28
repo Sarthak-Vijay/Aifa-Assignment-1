@@ -1,0 +1,35 @@
+Robots:
+-   Name: Robot1
+    Initial: [5, 0]
+    Final: [3, 12]
+    
+-   Name: Robot1
+    Initial: [4, 6]
+    Final: [0, 10]
+    
+-   Name: Robot1
+    Initial: [1, 12]
+    Final: [0, 5]
+    
+-   Name: Robot2
+    Initial: [5, 0]
+    Final: [0,5]
+    
+-   Name: Robot2
+    Initial: [4, 6]
+    Final: [0, 10]
+
+    Name: Robot2
+    Initial: [1, 12]
+    Final: [3, 12]
+    
+Map:
+    Dimension: [6, 17]
+    
+    Obstacles:
+    - !!python/tuple [2, 1]
+    - !!python/tuple [5, 3]
+    - !!python/tuple [4, 10]
+    - !!python/tuple [0, 13]
+    - !!python/tuple [2, 15]
+    
